@@ -395,10 +395,10 @@ export default function Home() {
                   >
                     <motion.div 
                       className="journey-year"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ scale: 0,opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, scale: 1, x: 0 }}
                       viewport={{ once: false, amount: 0.3 }}
-                      transition={{ duration: 0.3, delay: animationDelay + 0.35, ease: "easeOut" }}
+                       transition={{ type: "spring", stiffness: 300, delay: 0.2 }}
                     >
                       <i className="fas fa-calendar-alt"></i> {years[index]}
                     </motion.div>
