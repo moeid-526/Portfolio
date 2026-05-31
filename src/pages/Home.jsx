@@ -24,7 +24,7 @@ export default function Home() {
       title: "BS Information Technology",
       description:
         "National University of Modern Languages (NUML) – Islamabad (Main Campus)\n" +
-        "2021 – 2025 | 8th Semester | CGPA: 3.97\n" +
+        "2022 – 2026 | 8th Semester | CGPA: 3.97\n" +
         "Focused on software development, AI technologies, machine learning, and modern web frameworks.",
     },
     {
@@ -353,7 +353,7 @@ export default function Home() {
           <div className="journey-groups-container">
             {education.map((item, index) => {
               const icons = ["fas fa-school", "fas fa-book", "fas fa-graduation-cap"];
-              const years = ["2019", "2019 - 2021", "2021 - 2025"];
+              const years = ["2022-2026", "2019 - 2021", "2019"];
               const animationDelay = index * 0.15;
               
               return (
