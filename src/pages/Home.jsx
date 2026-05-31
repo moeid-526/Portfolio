@@ -241,7 +241,7 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <i className="fas fa-download"></i> Download CV
+                <i className="fas fa-download"></i> View / Download CV
               </motion.a>
             </motion.div>
 
