@@ -43,7 +43,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description: "Modern, animated portfolio showcasing skills and projects with premium UI/UX, responsive design, and smooth animations using Framer Motion.",
-      link: "https://github.com/moeid-526/portfolio",
+      link: "https://github.com/moeid-526/Portfolio",
       tech: ["React", "Framer Motion", "CSS3", "Responsive"],
       icon: "fas fa-briefcase",
       gradient: "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
