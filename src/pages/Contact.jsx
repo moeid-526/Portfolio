@@ -98,7 +98,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="John Doe"
+                  placeholder="Enter your name"
                 />
               </div>
 
@@ -114,7 +114,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="john@example.com"
+                  placeholder="abc@example.com"
                 />
               </div>
 
@@ -130,7 +130,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows="5"
-                  placeholder="Tell me about your project..."
+                  placeholder="Enter your message"
                 ></textarea>
               </div>
 
